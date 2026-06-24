@@ -1,0 +1,33 @@
+[user]
+  name = Matheus Klauberg
+  email = mfklauberg@gmail.com
+
+[init]
+	defaultBranch = main
+
+[branch]
+  autoSetupRebase = always
+  sort = refname
+
+[core]
+  excludesfile = ~/.gitignore
+	ignorecase = false
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = error
+  stat = true
+
+[fetch]
+  prune = true
+  pruneTags = true
+  showForcedUpdates = true
+
+[push]
+  default = current
+
+[log]
+  date = local
+
+[format]
+  pretty = format: %C(auto, yellow)%h %C(auto, cyan)%>(10)%ad %C(auto, green)%<(7)%aN%C(auto, red)%d %Creset%s

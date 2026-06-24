@@ -1,0 +1,10 @@
+- source: configuration/shell/.zshrc
+  target: ~/.zshrc
+- source: configuration/git/.gitconfig
+  target: ~/.gitconfig
+- source: configuration/editor/.vimrc
+  target: ~/.vimrc
+- source: configuration/editor/.editorconfig
+  target: ~/.editorconfig
+- source: configuration/node/.npmrc
+  target: ~/.npmrc
