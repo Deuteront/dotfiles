@@ -14,6 +14,18 @@ This installs the prerequisites (Xcode Command Line Tools, Homebrew, git, yq),
 clones this repo to `~/dotfiles`, and runs the full setup: macOS defaults,
 Homebrew packages, tooling, and dotfile symlinks.
 
+## After the setup
+
+The bootstrap runs unattended; these are the interactive bits to do by hand
+once it finishes.
+
+Set up a GitHub SSH key (generates an ed25519 key, adds it to the Keychain,
+and registers it on GitHub via the `gh` CLI):
+
+```sh
+~/dotfiles/scripts/ssh.sh
+```
+
 ## Re-running things
 
 Everything is safe to run again at any time.
