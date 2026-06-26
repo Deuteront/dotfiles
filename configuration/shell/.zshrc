@@ -55,6 +55,8 @@ bindkey "^[[B" down-line-or-beginning-search
 
 # --- Path
 
+export PATH="$HOME/.local/bin:$PATH"
+
 typeset -U path
 
 export PATH
