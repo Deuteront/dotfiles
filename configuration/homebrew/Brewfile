@@ -13,15 +13,13 @@ brew "yamllint"
 # --- Brew casks
 
 # Communication
-cask "deskpad"
 cask "discord"
-cask "telegram"
 cask "whatsapp"
 
 # Development
 cask "docker-desktop"
 cask "ghostty"
-cask "visual-studio-code"
+cask "intellij-idea"
 
 # Fonts
 cask "font-monaspace"
@@ -29,14 +27,10 @@ cask "font-monaspace"
 # Entertainment
 cask "spotify"
 cask "crossover"
-cask "vlc"
 
 # Productivity
 cask "caffeine"
-cask "logi-options+"
 cask "raycast"
-cask "tailscale-app"
-cask "keyboard-maestro"
 
 # Web Browsers
 cask "google-chrome"

@@ -3,13 +3,13 @@ set -euo pipefail
 
 # Remote bootstrap for a brand-new Mac. This is the only thing you run by hand:
 #
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mfklauberg/dotfiles/main/bootstrap.sh)"
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Deuteront/dotfiles/main/bootstrap.sh)"
 #
 # It installs the prerequisites that aren't on a clean macOS install
 # (Xcode CLT, Homebrew, git, yq), clones the dotfiles repo, and then hands
 # off to scripts/setup.sh to do the actual configuration.
 
-DOTFILES_REPO="https://github.com/mfklauberg/dotfiles.git"
+DOTFILES_REPO="https://github.com/Deuteront/dotfiles.git"
 DOTFILES_DIR="$HOME/dotfiles"
 
 # Minimal banner helper — bootstrap runs via `curl | bash` before the repo

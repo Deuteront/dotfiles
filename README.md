@@ -1,13 +1,13 @@
 # dotfiles
 
-mfklauberg's dotfiles.
+deuteront's dotfiles.
 
 ## Setup a new Mac
 
 Open Terminal and run:
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mfklauberg/dotfiles/main/bootstrap.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Deuteront/dotfiles/main/bootstrap.sh)"
 ```
 
 This installs the prerequisites (Xcode Command Line Tools, Homebrew, git, yq),
